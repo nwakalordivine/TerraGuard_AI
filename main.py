@@ -37,3 +37,6 @@ def predict(data: FloodInput):
         "flood_expected": prediction == "flood",
         "date": flood_date
     }
+
+
+app = app
