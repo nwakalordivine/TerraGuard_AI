@@ -38,5 +38,3 @@ def predict(data: FloodInput):
         "date": flood_date
     }
 
-
-app = app

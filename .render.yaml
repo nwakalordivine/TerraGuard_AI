@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: terraguard-api
+    env: python
+    buildCommand: ""
+    startCommand: ./start.sh
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
